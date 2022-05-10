@@ -10,3 +10,7 @@ window.onscroll = function() { //Fires up when the scroll event happens
         header.classList.remove('navbarDark');
     }
 }
+
+document.getElementById("btn-dark-tower").onclick=function({
+    document.getElementById("popup-dark-tower").show();
+})
